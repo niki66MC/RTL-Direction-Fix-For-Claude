@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Shadow -->
+  <rect x="2" y="3" width="44" height="44" rx="11" fill="rgba(0,0,0,0.2)"/>
+  <!-- Background rounded square with gradient -->
+  <rect width="48" height="47" rx="11" fill="#cc785c"/>
+  <!-- Subtle inner highlight -->
+  <rect x="1" y="1" width="46" height="23" rx="10" fill="rgba(255,255,255,0.08)"/>
+  <!-- Hebrew letter Alef - big, centered, raised -->
+  <text x="24" y="26" font-family="serif" font-size="28" font-weight="bold"
+        text-anchor="middle" fill="white"
+        style="filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.3))">א</text>
+  <!-- RTL arrow pointing left, raised -->
+  <line x1="35" y1="36" x2="13" y2="36" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round"/>
+  <polyline points="19,31 13,36 19,41" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
